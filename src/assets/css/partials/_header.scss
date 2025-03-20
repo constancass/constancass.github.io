@@ -3,6 +3,9 @@ body {
 }
 header {
     background-color: #f8b400;
+    @media #{$medium} {
+        background-color: green;
+    }
     padding: 10px 0;
     text-align: center;
 }
